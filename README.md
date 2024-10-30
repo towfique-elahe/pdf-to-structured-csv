@@ -1,9 +1,9 @@
 # Automated PDF to Structured CSV Data Extraction
 
-## Description: <br>
+### Description: <br>
 A Python tool for extracting and structuring text data from PDF files using OCR and regex, then exporting it to CSV. This project is particularly suited for converting scanned PDFs containing structured forms or invoices into usable, tabulated data. By leveraging pdf2image and pytesseract, it handles each page of a PDF as an image, allowing reliable OCR text extraction. Regex patterns are used to extract specific data fields, enabling customizable and targeted text capture for complex data layouts.
 
-## Features: <br>
+### Features: <br>
 <ul>
   <li>
     PDF-to-Image Conversion: Converts each PDF page to an image using pdf2image for high-fidelity OCR, making it suitable for scanned or image-heavy PDFs.
