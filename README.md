@@ -4,10 +4,20 @@
 A Python tool for extracting and structuring text data from PDF files using OCR and regex, then exporting it to CSV. This project is particularly suited for converting scanned PDFs containing structured forms or invoices into usable, tabulated data. By leveraging pdf2image and pytesseract, it handles each page of a PDF as an image, allowing reliable OCR text extraction. Regex patterns are used to extract specific data fields, enabling customizable and targeted text capture for complex data layouts.
 
 **Features:** <br>
-PDF-to-Image Conversion: Converts each PDF page to an image using pdf2image for high-fidelity OCR, making it suitable for scanned or image-heavy PDFs.
-OCR with Pytesseract: Extracts text from images using pytesseract, enabling multi-language support and high accuracy for complex documents.
-Regex-Based Data Extraction: Uses Python’s re module to apply regular expressions for capturing specific data fields from extracted text, such as dates, ticket numbers, customer information, weights, prices, and other structured details.
-Automated CSV Generation: Outputs structured data into a CSV file, with customizable headers, making it easy to analyze or integrate the data with other applications.
+<ul>
+  <li>
+    PDF-to-Image Conversion: Converts each PDF page to an image using pdf2image for high-fidelity OCR, making it suitable for scanned or image-heavy PDFs.
+  </li>
+  <li>
+    OCR with Pytesseract: Extracts text from images using pytesseract, enabling multi-language support and high accuracy for complex documents.
+  </li>
+  <li>
+    Regex-Based Data Extraction: Uses Python’s re module to apply regular expressions for capturing specific data fields from extracted text, such as dates, ticket numbers, customer information, weights, prices, and other structured details.
+  </li>
+  <li>
+    Automated CSV Generation: Outputs structured data into a CSV file, with customizable headers, making it easy to analyze or integrate the data with other applications.
+  </li>
+</ul>
 
 **Technical Details:** <br>
 **Dependencies:** <br>
